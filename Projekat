@@ -1,0 +1,98 @@
+//Luka Mijanovic 24/074, Ajla Catovic 24/007, Medina Lukovic 24/034
+class Enemy {
+	private int x; //atributi
+	private int y;
+	private int width;
+	private int height;
+	private int damage;
+	
+	//konstruktor
+	public Enemy(int x, int y, int width, int height, int damage) {
+		
+	}
+	
+	//Getteri
+	public int getX() { return x; }
+	public int getY() { return y; }
+	public int getWidth() { return width; }
+	public int getHeight() { return height; }
+	public int getDamage() { return damage; }
+	
+	//Setteri
+	public void setX (int x) {
+		this.x = x;
+	}
+	public void setY (int y) {
+		this.y = y;
+	}
+	public void setWidth (int width) {
+		this.width = width;
+	}
+	public void setHeight (int height) {
+		this.height = height;
+	}
+	public void setDamage (int damage) {
+			this.damage = damage;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+//Luka Mijanovic 24/074, Ajla Catovic 24/007, Medina Lukovic 24/034
+public class Game {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+//Luka Mijanovic 24/074, Ajla Catovic 24/007, Medina Lukovic 24/034
+class Player {
+	private int x; //atributi
+	private int y;
+	private int width;
+	private int height;
+	private int health;
+	
+	//konstruktor
+	public Player(int x, int y, int width, int height, int health) {
+		
+	}
+	
+	//Getteri
+	public int getX() { return x; }
+	public int getY() { return y; }
+	public int getWidth() { return width; }
+	public int getHeight() { return height; }
+	public int getHealth() { return health; }
+
+	//Setteri
+	public void setX (int x) {
+		this.x = x;
+	}
+	public void setY (int y) {
+		this.y = y;
+	}
+	public void setWidth (int width) {
+		this.width = width;
+	}
+	public void setHeight (int height) {
+		this.height = height;
+	}
+	public void setHealth (int health) {
+			this.health = health;
+
+	}
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}
